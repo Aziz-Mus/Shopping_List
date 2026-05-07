@@ -47,7 +47,7 @@ class _ShoppingTabState extends State<ShoppingTab> {
                   decoration: InputDecoration(
                     hintText: "Nama Barang",
                     hintStyle: TextStyle(
-                      color: Colors.black.withOpacity(0.3),
+                      color: Colors.black.withValues(alpha: 0.3),
                       fontWeight: FontWeight.bold,
                     ),
                     filled: true,
